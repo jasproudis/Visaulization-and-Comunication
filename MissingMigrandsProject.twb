@@ -1,0 +1,1152 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0910.0334                               -->
+<workbook original-version='18.1' source-build='2024.2.3 (20242.24.0910.0334)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Missing_Migrants_Global_Figures_allData' inline='true' name='federated.0toa8z10157qq61fcoof3167azra' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Missing_Migrants_Global_Figures_allData' name='textscan.13bviuw0ryncis1a39pxz1iiywvp'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/jaspr/Desktop/DESKTOP/AUEB_MscDataScience/Data visualization and communication/Teams_Project/Missing_Migrants_Global_Figures_allData.csv' dataRefreshTime='' directory='C:/Users/jaspr/Desktop/DESKTOP/AUEB_MscDataScience/Data visualization and communication/Teams_Project' filename='C:/Users/jaspr/AppData/Local/Temp/TableauTemp/12z01me18axgzc17l6weh1bdkxxv/Missing_Migrants_Global_Figures_allData.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.13bviuw0ryncis1a39pxz1iiywvp' name='Missing_Migrants_Global_Figures_allData.csv' table='[Missing_Migrants_Global_F#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:Y10001:no:A1:Y10001:2' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Main ID Main ID' ordinal='0' />
+            <column datatype='string' name='Incident ID Incident ID' ordinal='1' />
+            <column datatype='string' name='Incident Type Incident Type' ordinal='2' />
+            <column datatype='string' name='Region of Incident Region of Incident' ordinal='3' />
+            <column datatype='string' name='Incident Date Incident Date' ordinal='4' />
+            <column datatype='integer' name='Incident Year Incident Year' ordinal='5' />
+            <column datatype='string' name='Month Month' ordinal='6' />
+            <column datatype='integer' name='Number of Dead Number of Dead' ordinal='7' />
+            <column datatype='integer' name='Minimum Estimated Number of Missing Minimum Estimated Number of Missing' ordinal='8' />
+            <column datatype='integer' name='Total Number of Dead and Missing Total Number of Dead and Missing' ordinal='9' />
+            <column datatype='integer' name='Number of Survivors Number of Survivors' ordinal='10' />
+            <column datatype='integer' name='Number of Females Number of Females' ordinal='11' />
+            <column datatype='integer' name='Number of Males Number of Males' ordinal='12' />
+            <column datatype='integer' name='Number of Children Number of Children' ordinal='13' />
+            <column datatype='string' name='Country of Origin Country of Origin' ordinal='14' />
+            <column datatype='string' name='Region of Origin Region of Origin' ordinal='15' />
+            <column datatype='string' name='Cause of Death Cause of Death' ordinal='16' />
+            <column datatype='string' name='Country of Incident Country of Incident' ordinal='17' />
+            <column datatype='string' name='Migration Route Migration Route' ordinal='18' />
+            <column datatype='string' name='Location of Incident Location of Incident' ordinal='19' />
+            <column datatype='string' name='Coordinates Coordinates' ordinal='20' />
+            <column datatype='string' name='UNSD Geographical Grouping UNSD Geographical Grouping' ordinal='21' />
+            <column datatype='string' name='Information Source Information Source' ordinal='22' />
+            <column datatype='string' name='URL URL' ordinal='23' />
+            <column datatype='integer' name='Source Quality Source Quality' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.13bviuw0ryncis1a39pxz1iiywvp' name='Missing_Migrants_Global_Figures_allData.csv' table='[Missing_Migrants_Global_F#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:Y10001:no:A1:Y10001:2' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Main ID Main ID' ordinal='0' />
+            <column datatype='string' name='Incident ID Incident ID' ordinal='1' />
+            <column datatype='string' name='Incident Type Incident Type' ordinal='2' />
+            <column datatype='string' name='Region of Incident Region of Incident' ordinal='3' />
+            <column datatype='string' name='Incident Date Incident Date' ordinal='4' />
+            <column datatype='integer' name='Incident Year Incident Year' ordinal='5' />
+            <column datatype='string' name='Month Month' ordinal='6' />
+            <column datatype='integer' name='Number of Dead Number of Dead' ordinal='7' />
+            <column datatype='integer' name='Minimum Estimated Number of Missing Minimum Estimated Number of Missing' ordinal='8' />
+            <column datatype='integer' name='Total Number of Dead and Missing Total Number of Dead and Missing' ordinal='9' />
+            <column datatype='integer' name='Number of Survivors Number of Survivors' ordinal='10' />
+            <column datatype='integer' name='Number of Females Number of Females' ordinal='11' />
+            <column datatype='integer' name='Number of Males Number of Males' ordinal='12' />
+            <column datatype='integer' name='Number of Children Number of Children' ordinal='13' />
+            <column datatype='string' name='Country of Origin Country of Origin' ordinal='14' />
+            <column datatype='string' name='Region of Origin Region of Origin' ordinal='15' />
+            <column datatype='string' name='Cause of Death Cause of Death' ordinal='16' />
+            <column datatype='string' name='Country of Incident Country of Incident' ordinal='17' />
+            <column datatype='string' name='Migration Route Migration Route' ordinal='18' />
+            <column datatype='string' name='Location of Incident Location of Incident' ordinal='19' />
+            <column datatype='string' name='Coordinates Coordinates' ordinal='20' />
+            <column datatype='string' name='UNSD Geographical Grouping UNSD Geographical Grouping' ordinal='21' />
+            <column datatype='string' name='Information Source Information Source' ordinal='22' />
+            <column datatype='string' name='URL URL' ordinal='23' />
+            <column datatype='integer' name='Source Quality Source Quality' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Y10001:no:A1:Y10001:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>61539</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Main ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Main ID]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Main ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Incident ID]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Incident ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Incident Type]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Incident Type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region of Incident</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region of Incident]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Region of Incident</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Incident Date]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Incident Date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Incident Year]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Incident Year</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Dead</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Dead]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Number of Dead</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minimum Estimated Number of Missing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Minimum Estimated Number of Missing]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Minimum Estimated Number of Missing</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Number of Dead and Missing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Number of Dead and Missing]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Total Number of Dead and Missing</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Survivors</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Survivors]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Number of Survivors</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Females</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Females]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Number of Females</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Males</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Males]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Number of Males</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Children</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Children]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Number of Children</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country of Origin</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country of Origin]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Country of Origin</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region of Origin</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region of Origin]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Region of Origin</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cause of Death</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Cause of Death]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Cause of Death</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country of Incident</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country of Incident]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Country of Incident</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Migration Route</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Migration Route]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Migration Route</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location of Incident</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location of Incident]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Location of Incident</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coordinates</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Coordinates]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Coordinates</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNSD Geographical Grouping</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[UNSD Geographical Grouping]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>UNSD Geographical Grouping</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Information Source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Information Source]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Information Source</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>URL</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[URL]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>URL</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source Quality</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Source Quality]</local-name>
+            <parent-name>[Missing_Migrants_Global_Figures_allData.csv]</parent-name>
+            <remote-alias>Source Quality</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country of Incident]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country of Origin]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Incident Year]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Migration Route]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Missing_Migrants_Global_Figures_allData.csv' datatype='table' name='[__tableau_internal_object_id__].[Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0]' role='measure' type='quantitative' />
+      <column-instance column='[Migration Route]' derivation='None' name='[none:Migration Route:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Migration Route:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;DRC to Uganda&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Syria to Türkiye&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Caribbean to US&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Venezuela to Caribbean&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Haiti to Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Eastern Mediterranean&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Central Mediterranean&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Western Africa / Atlantic route to the Canary Islands&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Sahara Desert crossing&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Afghanistan to Iran&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Türkiye-Europe land route&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Northern Route from EHOA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Darien&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Western Balkans&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Horn of Africa Route&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Iran to Türkiye&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Route to Southern Africa&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sea crossings to Mayotte&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Eastern Route to/from EHOA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Dominican Republic to Puerto Rico&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Western Mediterranean&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Belarus-EU border&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ukraine to Europe&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Italy to France&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;English Channel to the UK&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Caribbean to Central America&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;US-Mexico border crossing&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Greece&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Missing_Migrants_Global_Figures_allData.csv' id='Missing_Migrants_Global_Figures_allData.csv_8F7B69CFF3B44E3586ED8E2ABDB80CC0'>
+            <properties context=''>
+              <relation connection='textscan.13bviuw0ryncis1a39pxz1iiywvp' name='Missing_Migrants_Global_Figures_allData.csv' table='[Missing_Migrants_Global_F#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:Y10001:no:A1:Y10001:2' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Main ID Main ID' ordinal='0' />
+                  <column datatype='string' name='Incident ID Incident ID' ordinal='1' />
+                  <column datatype='string' name='Incident Type Incident Type' ordinal='2' />
+                  <column datatype='string' name='Region of Incident Region of Incident' ordinal='3' />
+                  <column datatype='string' name='Incident Date Incident Date' ordinal='4' />
+                  <column datatype='integer' name='Incident Year Incident Year' ordinal='5' />
+                  <column datatype='string' name='Month Month' ordinal='6' />
+                  <column datatype='integer' name='Number of Dead Number of Dead' ordinal='7' />
+                  <column datatype='integer' name='Minimum Estimated Number of Missing Minimum Estimated Number of Missing' ordinal='8' />
+                  <column datatype='integer' name='Total Number of Dead and Missing Total Number of Dead and Missing' ordinal='9' />
+                  <column datatype='integer' name='Number of Survivors Number of Survivors' ordinal='10' />
+                  <column datatype='integer' name='Number of Females Number of Females' ordinal='11' />
+                  <column datatype='integer' name='Number of Males Number of Males' ordinal='12' />
+                  <column datatype='integer' name='Number of Children Number of Children' ordinal='13' />
+                  <column datatype='string' name='Country of Origin Country of Origin' ordinal='14' />
+                  <column datatype='string' name='Region of Origin Region of Origin' ordinal='15' />
+                  <column datatype='string' name='Cause of Death Cause of Death' ordinal='16' />
+                  <column datatype='string' name='Country of Incident Country of Incident' ordinal='17' />
+                  <column datatype='string' name='Migration Route Migration Route' ordinal='18' />
+                  <column datatype='string' name='Location of Incident Location of Incident' ordinal='19' />
+                  <column datatype='string' name='Coordinates Coordinates' ordinal='20' />
+                  <column datatype='string' name='UNSD Geographical Grouping UNSD Geographical Grouping' ordinal='21' />
+                  <column datatype='string' name='Information Source Information Source' ordinal='22' />
+                  <column datatype='string' name='URL URL' ordinal='23' />
+                  <column datatype='integer' name='Source Quality Source Quality' ordinal='24' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Monthly Patterns'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Monthly Patterns</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Missing_Migrants_Global_Figures_allData' name='federated.0toa8z10157qq61fcoof3167azra' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0toa8z10157qq61fcoof3167azra'>
+            <column datatype='integer' name='[Incident Year]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Month]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Region of Incident]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total Number of Dead and Missing]' role='measure' type='quantitative' />
+            <column-instance column='[Incident Year]' derivation='None' name='[none:Incident Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Region of Incident]' derivation='None' name='[none:Region of Incident:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Number of Dead and Missing]' derivation='Sum' name='[sum:Total Number of Dead and Missing:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0toa8z10157qq61fcoof3167azra].[none:Incident Year:ok]'>
+            <groupfilter function='level-members' level='[none:Incident Year:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0toa8z10157qq61fcoof3167azra].[none:Region of Incident:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Region of Incident:nk]' member='&quot;Caribbean&quot;' />
+              <groupfilter function='member' level='[none:Region of Incident:nk]' member='&quot;Central America&quot;' />
+              <groupfilter function='member' level='[none:Region of Incident:nk]' member='&quot;North America&quot;' />
+              <groupfilter function='member' level='[none:Region of Incident:nk]' member='&quot;South America&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0toa8z10157qq61fcoof3167azra].[none:Region of Incident:nk]</column>
+            <column>[federated.0toa8z10157qq61fcoof3167azra].[none:Incident Year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0toa8z10157qq61fcoof3167azra].[sum:Total Number of Dead and Missing:qk]</rows>
+        <cols>[federated.0toa8z10157qq61fcoof3167azra].[none:Month:nk]</cols>
+      </table>
+      <simple-id uuid='{D9F806E8-3877-41F9-B596-B606377F37C8}' />
+    </worksheet>
+    <worksheet name='Trends by Migration Route'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book'>Trends by Migration Route</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Missing_Migrants_Global_Figures_allData' name='federated.0toa8z10157qq61fcoof3167azra' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0toa8z10157qq61fcoof3167azra'>
+            <column datatype='integer' name='[Incident Year]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Migration Route]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Region of Incident]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total Number of Dead and Missing]' role='measure' type='quantitative' />
+            <column-instance column='[Incident Year]' derivation='None' name='[none:Incident Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Migration Route]' derivation='None' name='[none:Migration Route:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Region of Incident]' derivation='None' name='[none:Region of Incident:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Number of Dead and Missing]' derivation='Sum' name='[sum:Total Number of Dead and Missing:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0toa8z10157qq61fcoof3167azra].[none:Migration Route:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Afghanistan to Iran&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Belarus-EU border&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Caribbean to Central America&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Caribbean to US&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Central Mediterranean&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Darien&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Dominican Republic to Puerto Rico&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;DRC to Uganda&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Eastern Mediterranean&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Eastern Route to/from EHOA&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;English Channel to the UK&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Haiti to Dominican Republic&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Horn of Africa Route&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Iran to Türkiye&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Italy to France&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Northern Route from EHOA&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Route to Southern Africa&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Sahara Desert crossing&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Sea crossings to Mayotte&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Syria to Türkiye&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Türkiye-Europe land route&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Ukraine to Europe&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;US-Mexico border crossing&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Venezuela to Caribbean&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Western Africa / Atlantic route to the Canary Islands&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Western Balkans&quot;' />
+              <groupfilter function='member' level='[none:Migration Route:nk]' member='&quot;Western Mediterranean&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0toa8z10157qq61fcoof3167azra].[none:Region of Incident:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Region of Incident:nk]' member='&quot;Caribbean&quot;' />
+              <groupfilter function='member' level='[none:Region of Incident:nk]' member='&quot;Central America&quot;' />
+              <groupfilter function='member' level='[none:Region of Incident:nk]' member='&quot;North America&quot;' />
+              <groupfilter function='member' level='[none:Region of Incident:nk]' member='&quot;South America&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0toa8z10157qq61fcoof3167azra].[none:Migration Route:nk]</column>
+            <column>[federated.0toa8z10157qq61fcoof3167azra].[none:Region of Incident:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0toa8z10157qq61fcoof3167azra].[none:Migration Route:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0toa8z10157qq61fcoof3167azra].[sum:Total Number of Dead and Missing:qk]</rows>
+        <cols>[federated.0toa8z10157qq61fcoof3167azra].[none:Incident Year:qk]</cols>
+      </table>
+      <simple-id uuid='{C7B4DEF5-BB57-4DEF-B7CC-E02D5A4E8B9B}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Trends by Migration Route'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='276'>
+            <card param='[federated.0toa8z10157qq61fcoof3167azra].[none:Region of Incident:nk]' type='filter' />
+            <card param='[federated.0toa8z10157qq61fcoof3167azra].[none:Migration Route:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0toa8z10157qq61fcoof3167azra].[none:Migration Route:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0toa8z10157qq61fcoof3167azra].[none:Incident Year:qk]</field>
+            <field>[federated.0toa8z10157qq61fcoof3167azra].[none:Migration Route:nk]</field>
+            <field>[federated.0toa8z10157qq61fcoof3167azra].[none:Region of Incident:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{98C18AD8-AB22-4179-A56B-B295C5E3947E}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Monthly Patterns'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.0toa8z10157qq61fcoof3167azra].[none:Incident Year:ok]' type='filter' />
+            <card mode='checkdropdown' param='[federated.0toa8z10157qq61fcoof3167azra].[none:Region of Incident:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0toa8z10157qq61fcoof3167azra].[none:Incident Year:ok]</field>
+            <field>[federated.0toa8z10157qq61fcoof3167azra].[none:Incident Year:qk]</field>
+            <field>[federated.0toa8z10157qq61fcoof3167azra].[none:Month:nk]</field>
+            <field>[federated.0toa8z10157qq61fcoof3167azra].[none:Region of Incident:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{192CAC2A-96FC-482A-8B0D-1D90B5386484}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Monthly Patterns' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Trends by Migration Route' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
